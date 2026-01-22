@@ -16,45 +16,6 @@ body {
     margin: 0;
 }
 
-/* Encabezado y Navegación */
-header {
-    background-color: #007bff;
-    color: white;
-    padding: 1rem 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-header h1 {
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
 
 /* Contenido Principal */
 main {
@@ -66,7 +27,7 @@ section {
     background: white;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 5px rgba(233, 188, 188, 0.05);
     margin-bottom: 2rem;
 }
 
