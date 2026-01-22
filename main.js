@@ -21,17 +21,29 @@ document.addEventListener('DOMContentLoaded', () => {
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="Testimonios.html">Testimonios</a>
         </li>
+                <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Contactenos.html">Contacto</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
     `;
+    const footerHTML = `
+                <p>&copy; 2024 Hospital de Niños Benjamín Bloom. Todos los derechos reservados.</p>
+            <p>San Salvador, El Salvador</p>`
 
     // Buscar el elemento header
     const headerElement = document.querySelector('header');
     
+
+        // Buscar el elemento header
+    const footerElement = document.querySelector('footer');
     // Si existe el header, inyectar el contenido
     if (headerElement) {
         headerElement.innerHTML = headerHTML;
+    }
+    if (footerElement) {
+        footerElement.innerHTML = footerHTML;
     }
 });
