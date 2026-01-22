@@ -1,0 +1,14 @@
+.ubicacion
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.ubicacion img
+{
+    width: 20%;
+    height: 20%;
+    margin-left: 2%;
+}
