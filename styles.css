@@ -29,6 +29,12 @@ section {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(233, 188, 188, 0.05);
     margin-bottom: 2rem;
+
+}
+
+.imagenes {
+        display: flex;
+    justify-content: space-evenly;
 }
 
 h2 {
@@ -36,6 +42,7 @@ h2 {
     border-bottom: 2px solid #e0e0e0;
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 /* Pie de página */
